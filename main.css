@@ -4,12 +4,17 @@
 	box-sizing: border-box;
 }
 
-.body {
+body {
 	display: block;
 	margin: 8px;
 }
 
-.section {
+div {
+	display: block;
+	unicode-bidi: isolate;
+}
+
+section {
 	display: block;
 	unicode-bidi: isolate;
 }
@@ -28,7 +33,7 @@
 }
 
 .figure {
-	background: purple;
+	background: teal;
 	flex: 0 0 40%;
 	height: 100%;
 }
